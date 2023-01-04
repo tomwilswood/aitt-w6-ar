@@ -6,9 +6,16 @@ In this week's lecture we saw a range of different approaches for creating augme
 
 I've created a template Unity project with some assets that you can use for the practical today already included. To get started, you should create a copy of this repository in your personal GitHub account by pressing the ```Use This Template``` button, and then clone it onto your local machine.
 
-To use Vuforia AR functionality in Unity we need to add it to our project as a package. There are a few ways to do this, which are described in the tutorial below. I'd reccomend you use the third one ```Add Vuforia Engine from the Asset Store```.
+To use Vuforia AR functionality in Unity we need to add it to our project as a package. There are a few ways to do this, which are described in the tutorial below. I'd reccomend you use the third one ```Add Vuforia Engine from the Asset Store```, but you can try the others if you'd prefer.
 
 https://library.vuforia.com/getting-started/vuforia-engine-package-unity
 
+Next you need to create a license key for your app. You can do this by following the two tutorials below. It’s a bit fiddly, but its worth it trust me!
+
+1. [Create a Vuforia Account](https://developer.vuforia.com/vui/auth/register)
+2. Create a free development license key
+3. Add your license key to your app
+
+Once you’ve done this, you should have an AR-enabled project. You can check if it worked by looking in the “Game Object” menu. If there is a new option in the list called “Vuforia Engine” then it’s worked.
 
 
