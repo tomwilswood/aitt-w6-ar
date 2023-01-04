@@ -27,4 +27,7 @@ The most basic Vuforia augmented reality experience we can create comprises:
 
 First up let’s create the camera. To do this, delete the ```MainCamera``` object that’s been created as part of the template scene and replace it with an ```ARCamera```. You can find the ARCamera within the new ```Vuforia Engine``` sub-menu of the ```Game Object``` menu. Once you’ve added your camera, press play and see what happens. You should just see an image from your webcam.
 
+Next let’s make the experience more exciting by adding our first trackable marker. To create an image marker, choose ```Image``` from the Vuforia menu and choose ```import``` when prompted to create an image database.
+
+
 
