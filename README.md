@@ -18,7 +18,7 @@ Next you need to create a license key for your app. You can do this by following
 
 Once you’ve done this, you should have an AR-enabled project. You can check if it worked by looking in the ```Game Object``` menu. If there is a new option in the list called ```Vuforia Engine``` then it’s worked.
 
-## Task 2: Your First AR Experience with an Image Target Marker
+## Task 2: Your First AR Experience with an Image Target Marker (An AR Book Cover)
 
 The most basic Vuforia augmented reality experience we can create comprises:
 
@@ -43,6 +43,17 @@ Once you've done this, follow these instructions to associate that image with yo
 To finish the task, add one of Unity's primitive shapes (e.g. a Sphere or a Cube) as a child of the ```ImageTarget``` game object and run the scene. If you hold up your image to the camera, the primitive shape you have added should appear on top of the book cover!
 
 To complete the task, find a 3D model online (e.g. from https://www.turbosquid.com/) that you feel represents the contents of the book. Add this as a child of the ```Image Target``` so that it appears when the book is held up instead of the primitive shape.
+
+## Task 3: Putting it on a Mobile Device
+
+In the remainder of this practical, we're going to be making an AR experience that's designed to work on a mobile device. In this task, let's learn how ot convert our simple Augmented Reality Book Cover expeirnece to run on an Android Tablet. The good news here is that this isn’t difficult to do. All you need to do is:
+
+1. Connect your device with a USB cable
+2. Choose Android as the build target (“File > Build Settings”)
+3. Click build and run
+
+The experience should work as it did in the Unity editor. If you aren’t able to build to Android, please look back at the instructions in week 3’s practical.
+
 
 
 
