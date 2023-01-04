@@ -52,7 +52,9 @@ In the remainder of this practical, we're going to be making an AR experience th
 2. Choose Android as the build target (```File > Build Settings```)
 3. Click build and run
 
-The experience should work as it did in the Unity editor. If you aren’t able to build to Android, please look back at the instructions in week 3’s practical.
+The experience should work as it did in the Unity editor, but on your tablet instead.
+
+## Task 4: Markerless AR
 
 
 
