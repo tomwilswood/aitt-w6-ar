@@ -49,7 +49,7 @@ To complete the task, find a 3D model online (e.g. from https://www.turbosquid.c
 In the remainder of this practical, we're going to be making an AR experience that's designed to work on a mobile device. In this task, let's learn how ot convert our simple Augmented Reality Book Cover expeirnece to run on an Android Tablet. The good news here is that this isn’t difficult to do. All you need to do is:
 
 1. Connect your device with a USB cable
-2. Choose Android as the build target (“File > Build Settings”)
+2. Choose Android as the build target (```File > Build Settings```)
 3. Click build and run
 
 The experience should work as it did in the Unity editor. If you aren’t able to build to Android, please look back at the instructions in week 3’s practical.
