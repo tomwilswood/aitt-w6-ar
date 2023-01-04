@@ -40,5 +40,5 @@ Once you've done this, follow these instructions to associate that image with yo
 3. Choose ```From Image``` from the ```Type``` drop down menu
 4. Drag the image asset showing your chosen book cover into the ```Image``` box
 
-
+To finish the task, add one of Unity's primitive shapes (e.g. a Sphere or a Cube) as a child of the ```ImageTarget``` game object and run the scene. If you hold up your image to the camera, the primitive shape you have added should appear on top of the book cover!
 
