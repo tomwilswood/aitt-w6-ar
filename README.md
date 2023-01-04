@@ -18,7 +18,7 @@ Next you need to create a license key for your app. You can do this by following
 
 Once you’ve done this, you should have an AR-enabled project. You can check if it worked by looking in the ```Game Object``` menu. If there is a new option in the list called ```Vuforia Engine``` then it’s worked.
 
-## Task 2: Your First AR Experience with an Image Target Marker (An AR Book Cover)
+## Task 2: Your First AR Experience with an Image Target Marker
 
 The most basic Vuforia augmented reality experience we can create comprises:
 
