@@ -18,4 +18,13 @@ Next you need to create a license key for your app. You can do this by following
 
 Once you’ve done this, you should have an AR-enabled project. You can check if it worked by looking in the ```Game Object``` menu. If there is a new option in the list called ```Vuforia Engine``` then it’s worked.
 
+## Task 2: Your First AR Experience with an Image Target Marker
+
+The most basic Vuforia augmented reality experience we can create comprises:
+
+1. An “ARCamera” object that let’s us look into the scene
+2. An “Image” marker that allows us to track the position of a particular image in the real world and overlay it with some virtual content
+
+First up let’s create the camera. To do this, delete the ```MainCamera``` object that’s been created as part of the template scene and replace it with an ```ARCamera```. You can find the ARCamera within the new ```Vuforia Engine``` sub-menu of the ```Game Object``` menu. Once you’ve added your camera, press play and see what happens. You should just see an image from your webcam.
+
 
