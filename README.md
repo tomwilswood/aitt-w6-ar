@@ -29,7 +29,17 @@ First up let’s create the camera. To do this, delete the ```MainCamera``` obje
 
 Next let’s make the experience more exciting by adding our first trackable marker. To create an image marker, choose ```Image Target``` from the Vuforia menu.
 
-When you do this you’ll see a new game object in the hierarchy called ```ImageTarget```. Zoom in on this object and take a look at it. You should see the picture of the astronaut at the following link.
+When you do this you’ll see a new game object in the hierarchy called ```ImageTarget```. This is a game object that will appear in your scene when a particular image is detected by your camera.
+
+
+
+
+Select this game object in the hierarchy and do the following two things within its ```Image Target Behaviour``` component in the inspector:
+
+1. Change the ```Type`` dropdown from ```From Image``` to ```From Database```
+2. Click the ```Add Target Button that appears```
+
+Zoom in on this object and take a look at it. You should see the picture of the astronaut at the following link.
 
 
 
