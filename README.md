@@ -4,7 +4,7 @@ In this week's lecture we saw a range of different approaches for creating augme
 
 ## Task 1: Getting Vuforia Setup in Unity
 
-I've created a template Unity project with some assets that you can use for the practical today already included. To get started, you should create a copy of this repository in your personal GitHub account by pressing the ```Use This Template``` button, and then clone it onto your local machine.
+I've created a template Unity project with some assets that you can use for the practical today already included. To get started, you should create a copy of this repository in your personal GitHub account by pressing the ```Use This Template``` button, and then clone it onto your local machine. Finally, open the ```Sample Scene```.
 
 To use Vuforia AR functionality in Unity we need to add it to our project as a package. There are a few ways to do this, which are described in the tutorial below. I'd reccomend you use the third one ```Add Vuforia Engine from the Asset Store```, but you can try the others if you'd prefer.
 
@@ -29,17 +29,16 @@ First up let’s create the camera. To do this, delete the ```MainCamera``` obje
 
 Next let’s make the experience more exciting by adding our first trackable marker. To create an image marker, choose ```Image Target``` from the Vuforia menu.
 
-When you do this you’ll see a new game object in the hierarchy called ```ImageTarget```. This is a game object that will appear in your scene when a particular image is detected by your camera.
+When you do this you’ll see a new game object in the hierarchy called ```ImageTarget```. This is a game object that will appear in your scene when a particular image is detected by your camera. We can add content like 3D models to this game object, and they'll then appear on top of the image too!
 
+Before this will work though, we need to tell Vuforia which image it should be looking for! Choose one of one of the printed pictures of book covers from the front of the room, which you would like to use an an AR marker. Next, find the corresponding image asset showing your chosen book cover in the ```Practical Assets/Book Covers``` folder.
 
+Once you've done this, follow these instructions to associate that image with your marker:
 
-
-Select this game object in the hierarchy and do the following two things within its ```Image Target Behaviour``` component in the inspector:
-
-1. Change the ```Type`` dropdown from ```From Image``` to ```From Database```
-2. Click the ```Add Target Button that appears```
-
-Zoom in on this object and take a look at it. You should see the picture of the astronaut at the following link.
+1. Click on the ```Image Target``` game object
+2. In the inspector find the ```Image Target Behavior``` script
+3. Choose ```From Image``` from the ```Type``` drop down menu
+4. Drag the image asset showing your chosen book cover into the ```Image``` box
 
 
 
