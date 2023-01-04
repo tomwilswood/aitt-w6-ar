@@ -8,7 +8,7 @@ I've created a template Unity project with some assets that you can use for the 
 
 To use Vuforia AR functionality in Unity we need to add it to our project as a package. There are a few ways to do this, which are described in the tutorial below. I'd reccomend you use the third one ```Add Vuforia Engine from the Asset Store```, but you can try the others if you'd prefer.
 
-https://library.vuforia.com/getting-started/vuforia-engine-package-unity
+- https://library.vuforia.com/getting-started/vuforia-engine-package-unity
 
 Next you need to create a license key for your app. You can do this by following the two tutorials below. It’s a bit fiddly, but its worth it trust me!
 
