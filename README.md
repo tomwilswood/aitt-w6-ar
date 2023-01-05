@@ -54,7 +54,23 @@ In the remainder of this practical, we're going to be making an AR experience th
 
 The experience should work as it did in the Unity editor, but on your tablet instead.
 
-## Task 4: Markerless AR
+## Task 4: Markerless AR with a Ground Plane
+
+Printed markers are a robust way to position AR content in a scene. However, they have a big drawback. You need a printed marker, which isn't ideal for many mobile use cases. In the lecture, we saw techniques that seek to analyse the physical geometery of the environment in order to find the right position to put AR content, and how these can offer a better solution. In this task, we're going to try something like this out.
+
+Vuforia has a feature called a Ground Plane Stage. This feature basically analyses your image to find a sufficently large horizontal area (e.g. the floor, a table) that the user can choose to have AR content appear on. With a Vuforia ground plane, you can create experiences where:
+
+1. The user points their camera at a flat surface in the room they would like AR conten to appear on
+2. Vuforia detects that region and suggests it as a possible ground plane, by showing a small visual indicator on the screen
+3. The user presses the screen to confirm that they would like the AR content to appear on that surface
+4. The content appears and the AR experience begins!
+
+In this task you should create a simple experience where a basic Unity primitive appears on a Ground Plane. To do this, follow the instructions in the ```Creating your First Ground Plane Experience``` at the following link:
+
+- https://library.vuforia.com/ground-plane/introduction-ground-plane-unity
+
+Your tablet computers are capable of detecting a ground plane. Therefore, you don't need to follow the instructions for the ```Ground Plane Emulator```.
+
 
 
 
