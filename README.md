@@ -84,9 +84,7 @@ It should have the following behaviour: 
 3. The balls should be thrown by pressing on the touch screen
 4. The direction the balls are thrown should depend on the device angle
 5. A score counter should be shown on the screen, which keeps track of the number of successful balls scored
-5. You can choose what assets you use, or even make your own. However, here is a free bin to get you started:
-
-- https://www.turbosquid.com/3d-models/trash-bin-obj-free/513274
+5. You can choose what assets you use, or even make your own. However, I've also provided some basic ones in ```Practical Assets/Ball Game```
 
 To help you focus on the AR aspects of this task, I've created a game object that will thorw balls forward into a scene when you press the screen for you to use (feel free to code your own instead though!). You can find this in ```Practical Assets/Ball Game```.
 
