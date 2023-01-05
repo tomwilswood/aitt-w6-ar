@@ -69,7 +69,28 @@ In this task you should create a simple experience where a basic Unity primitive
 
 - https://library.vuforia.com/ground-plane/introduction-ground-plane-unity
 
-Your tablet computers are capable of detecting a ground plane. Therefore, you don't need to follow the instructions for the ```Ground Plane Emulator```.
+Your tablet computers are capable of detecting a ground plane. Therefore, you don't need to follow the instructions in the ```Ground Plane Emulator``` section of the guide.
+
+# Task 5: Interacting with AR Content (Paper in Bin!)
+
+To complete the final task, we’re going to create your first AR game. The game should be a homage to the classic paper bin AR game.
+
+https://www.youtube.com/watch?v=2ClIQx6wINQ
+
+It should have the following behaviour: 
+
+1. A bin should be positioned on either an ```Image Target``` or a ```Ground Plane Stage```
+2. The player should be able to throw balls into the bin
+3. The balls should be thrown by pressing on the touch screen
+4. The direction the balls are thrown should depend on the device angle
+5. A score counter should be shown on the screen, which keeps track of the number of successful balls scored
+5. You can choose what assets you use, or even make your own. However, here is a free bin to get you started:
+
+- https://www.turbosquid.com/3d-models/trash-bin-obj-free/513274
+
+To help you focus on the AR aspects of this task, I've created a game object that will thorw balls forward into a scene when you press the screen for you to use (feel free to code your own instead though!). You can find this in ```Practical Assets/Ball Game```.
+
+
 
 
 
