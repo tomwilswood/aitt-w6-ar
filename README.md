@@ -71,7 +71,7 @@ In this task you should create a simple experience where a basic Unity primitive
 
 Your tablet computers are capable of detecting a ground plane. Therefore, you don't need to follow the instructions in the ```Ground Plane Emulator``` section of the guide.
 
-# Task 5: Interacting with AR Content (Paper in Bin!)
+## Task 5: Interacting with AR Content (Paper in Bin!)
 
 To complete the final task, we’re going to create your first AR game. The game should be a homage to the classic paper bin AR game.
 
@@ -90,7 +90,11 @@ It should have the following behaviour: 
 
 To help you focus on the AR aspects of this task, I've created a game object that will thorw balls forward into a scene when you press the screen for you to use (feel free to code your own instead though!). You can find this in ```Practical Assets/Ball Game```.
 
+## Optional Extension: Calling Code When a Marker or Ground Plane is Tracked
 
+You might be wondering whether it's possible to call some code when an image marker or ground plane is tracked. For example, what if you want to disable the ball throwing in the game until the bin appears? The answer is that it's pretty simple to do this with Vuforia.
+
+Take a look at the ```Default Observer Event Handler``` component on either the ```Image Target``` or ```Ground Plane Stage``` game object that was used in your solution to the last task. Can you see anything in this component that might help you call some code when the object is tracked? Thinking back to how we processed input with a graphical user interface in Unity during the MPIE module last year might help you find the solution.
 
 
 
