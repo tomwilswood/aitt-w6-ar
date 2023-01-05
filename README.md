@@ -86,7 +86,7 @@ It should have the following behaviour: 
 5. A score counter should be shown on the screen, which keeps track of the number of successful balls scored
 5. You can choose what assets you use, or even make your own. However, I've also provided some basic ones in ```Practical Assets/Ball Game```
 
-To help you focus on the AR aspects of this task, I've created a game object that will thorw balls forward into a scene when you press the screen for you to use (feel free to code your own instead though!). You can find this in ```Practical Assets/Ball Game```.
+To help you focus on the AR aspects of this task, I've created a Scene with a Game Object in it (called ```Ball Thrower```) that will thorw balls forward into a scene when you press the screen for you to use (feel free to code your own instead though!). You can find this in ```Practical Assets/Ball Game```. You can also find a prefab of this game object there too, in case you'd like to adapt your previous AR scene rather than work from scratch again.
 
 ## Optional Extension: Calling Code When a Marker or Ground Plane is Tracked
 
