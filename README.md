@@ -6,7 +6,7 @@ In this week's lecture we saw a range of different approaches for creating augme
 
 I've created a template Unity project with some assets that you can use for the practical today already included. To get started, you should create a copy of this repository in your personal GitHub account by pressing the ```Use This Template``` button, and then clone it onto your local machine. Finally, open the ```Sample Scene```.
 
-To use Vuforia AR functionality in Unity we need to add it to our project as a package. There are a few ways to do this, which are described in the tutorial below. I'd reccomend you use the third one ```Add Vuforia Engine from the Asset Store```, but you can try the others if you'd prefer.
+To use Vuforia AR functionality in Unity we need to add it to our project as a package. There are a few ways to do this, which are described in the tutorial below. I'd reccomend you use the first one ```Add Vuforia Engine to Unity via Editor script```, but you can try the others if you'd prefer.
 
 - https://library.vuforia.com/getting-started/vuforia-engine-package-unity
 
