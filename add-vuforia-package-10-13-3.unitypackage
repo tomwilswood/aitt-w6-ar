@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/vuforiaui/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Access denied | Vuforia Developer Portal</title>
+    <base href="https://developer.vuforia.com/" />
+
+    <script src="/sites/default/files/js/js_A_PxGf3EV6hVEdQpj0xw-cTsSsFJyKhlHKANlKZNsWo.js"></script>
+<script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" defer crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v6.1.0/js/v4-shims.js" defer crossorigin="anonymous"></script>
+<script src="/sites/default/files/js/js_UWxjnULfJbQKel5gI0oRfhvoKkUWCHvgZnKMc-TZd90.js"></script>
+
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_1kPch8E6ybyN50hlfjpR9wpInPVl1wT6DkZ4ITkWAgk.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_9ZgNktxhYtON7kKgBhk08QM4Qa4WPnua53gZ6AUUekw.css" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_Z5jMg7P_bjcW9iUzujI7oaechMyxQTUqZhHJ_aYSq04.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_lMauJwI1eiruMqINhWqLDgsQ1C1ei528zOdXE5C_ZLc.css" />
+
+
+  </head>
+
+  
+  <body class="layout-one-sidebar layout-sidebar-first path-system anonymous">
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['SLScoutObject']=r;i[r]=i[r]||function()
+      { (i[r].q=i[r].q||[]).push(arguments)}
+      ,i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://scout-cdn.salesloft.com/sl.js','slscout');
+      slscout(["init", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0Ijo5NzExfQ.CsHi_f22zaUCxVdqmNC4gFxVehOLFk7c4G9YbvjvALk"]);
+    </script>
+    <!--End of SalesLoft Tracking Code -->
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MSNQ7J"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MSNQ7J');
+    </script>
+      <!-- End Google Tag Manager -->
+
+      <!-- AR DriftChat code -->
+    <script>
+      'use strict';
+      !function() {
+        var t = window.driftt = window.drift = window.driftt || [];
+        
+      if (!t.init) {
+          if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+          t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+          t.factory = function(e) {
+            return function() {
+              var n = Array.prototype.slice.call(arguments);
+              return n.unshift(e), t.push(n), t;
+            };
+          }, t.methods.forEach(function(e) {
+            t[e] = t.factory(e);
+          }), t.load = function(t) {
+            var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+            var i = document.getElementsByTagName("script")[0];
+            i.parentNode.insertBefore(o, i);
+          };
+        }
+      }();
+      drift.SNIPPET_VERSION = '0.3.1';
+      drift.load('fs4rizkxmwrp');
+      drift.on('emailCapture', function(api) {
+        drift.api.setUserAttributes({
+          elqCampaignId: new URLSearchParams(window.location.search).get('elqCampaignId')
+        })
+      })
+
+      function getRandomInt(min, max)
+      {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min)) + min;
+      }
+      var random = getRandomInt(1,100);
+      if( random <= 50 )
+      {
+        document.cookie = "DriftPlaybook=A"
+      } 
+      else 
+      {
+        document.cookie = "DriftPlaybook=B"
+      }
+    </script>
+
+            
+      
+        <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+
+<header id="header" class="vuforia-header">
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <div class="header-wrapper">
+                    <input type="hidden" value="" id="userNameHeaderHidden">
+                    <a class="navbar-brand" href="/">developer portal</a>
+                    <div id="loggedInLogoutDiv" class="pull-right login-btn-block">
+                        <ul class="navbar-nav">
+                            <li class="dropdown login-user  rb">
+                                <a href="#" class="dropdown-toggle headerLink" data-toggle="dropdown">
+                                    <span id="helloUser">
+                                        <span class="userNameInHeaderSpan">
+                                            <span class="userNameInHeader"></span>
+                                            <span id="unreadMessages"></span>
+                                        </span>
+                                        <span class="arrow-ico pull-right"></span>
+                                    </span>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a id="accountInfo" href="#">Account Info</a></li>
+                                    <li><a id="paymentMethod" href="#">Payment Method</a></li>
+                                    <li><a id="billingStatements" href="#">Billing Statements</a></li>
+                                </ul>
+                        </ul>
+                        <a id="accountLogOut" class="headerLink" onclick="logout()">Log Out</a>
+                    </div>
+                    <div id="loginRegisterDiv" class="pull-right login-btn-block">
+                        <a href="/vui/auth/login" class="btn-no-style rb" id="vuforiaLogin">Log In</a>
+                        <a href="/vui/auth/register" class="btn-no-style" id="vuforiaRegister">Register</a>
+                    </div>
+                    <div class="clearfix navigation-bar blockMenu">
+                        <ul class="navbar-nav primary-nav">
+                            <li id="drupalHome" class="getStartedMenu commonParentMenu"><a href="#">Home</a></li>
+                            <li id="drupalPricing"><a>Pricing</a></li>
+                            <li id="drupalDownloads" class="apisMenu commonParentMenu"><a
+                                    href="downloads/sdk">Downloads</a>
+                            </li>
+                            <li id="drupalLibrary" class="resourcesMenu commonParentMenu"><a>Library</a></li>
+                            <li id="develop" class="targetManagerMenu commonParentMenu"><a href="#"
+                                    class="targetManager">Develop</a></li>
+                            <li id="drupalSupport" class="supportMenu commonParentMenu"><a href="support">Support</a>
+                            </li>
+                            <li class="adminMenu commonParentMenu"><a href="#">Admin</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-sub-inner">
+            <div class="container">
+                <div class="subnav-new clearfix resources commonTab" style="display: none">
+                    <ul class="navbar-nav nav-pills">
+                        <li id="drupalSdk"><a href="downloads/sdk">SDK</a></li>
+                        <li id="drupalSamples"><a href="downloads/samples">Samples</a></li>
+                        <li id="drupalTools"><a href="downloads/tool">Tools</a></li>
+                    </ul>
+                </div>
+                <div class="subnav-new clearfix support commonTab" style="display: none">
+                    <ul class="navbar-nav nav-pills">
+                        <li id="drupalSupportCenter"><a href="support">Support Center</a></li>
+                        <li id="drupalForums"><a href="forum">Community Forums</a></li>
+                        <li id="drupalVIP"><a href="support/contact/cloud">VIP Support</a></li>
+                        <li id="drupalCloudSupport"><a href="support/contact/cloud">Production Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section class="main-content">
+<div class="container">
+   <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div><div id="block-vuforiaui-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="content">
+      You are not authorized to access this page.
+    </div>
+  </div>
+
+  </div>
+
+</div>
+</section>
+
+
+<footer class="page-footer">
+	<div class="iparys_inherited">
+		<div class="iParsysFooter iparsys parsys">
+			<div class="fourComponentFooter parbase section">
+				<article>
+					<ul class="footer-links links__ptc">
+						<li>
+							PTC, Inc.
+						</li>
+						<li>
+							<a href="https://www.ptc.com/en/news" target="_blank">Latest News</a>
+						</li>
+						<li>
+							<a href="https://www.ptc.com/en/blogs" target="_blank">Blog</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/company/ptc/jobs/" target="_blank">Careers at PTC</a>
+						</li>
+						<li>
+							<a href="https://www.ptc.com/en/technologies/augmented-reality/contact-us" target="_blank">Contact Us</a>
+						</li>
+					</ul>
+
+					<ul class="footer-links links__resources">
+						<li>
+							Resources
+						</li>
+						<li>
+							<a href="https://developer.vuforia.com/support" target="_blank">Support</a>
+						</li>
+						<li>
+							<a href="https://library.vuforia.com" target="_blank">Developer Library</a>
+						</li>
+						<li>
+							<a href="https://developer.vuforia.com/pricing" target="_blank">Pricing Request</a>
+						</li>
+						<li>
+							<a href="https://developer.vuforia.com/downloads/sdk" target="_blank">Downloads</a>
+						</li>
+						<li>
+							<a href=https://developer.vuforia.com/legal/vuforia-developer-agreement target="_blank">Developer Agreement</a>
+						</li>
+					</ul>
+
+					<ul class="footer-links links__community">
+						<li>
+							Community
+						</li>
+						<li>
+							<a href="https://developer.vuforia.com" target="_blank">Developer Portal</a>
+						</li>
+						<li>
+							<a href="https://developer.vuforia.com/forum" target="_blank">Forums</a>
+						</li>
+						<li>
+							<a href="https://developer.vuforia.com" target="_blank">Announcements</a>
+						</li>
+						<li>
+							<a href="https://www.ptc.com/en/events" target="_blank">Events</a>
+						</li>
+					</ul>
+
+					<ul class="footer-links links__ar-prods">
+						<li>
+							AR Products
+						</li>
+						<li>
+							<a href="https://www.ptc.com/en/products/augmented-reality" target="_blank">Overview</a>
+						</li>
+						<li>
+							<a href="https://vuforia.com/engine">Vuforia Engine</a>
+						</li>
+						<li>
+							<a href="https://studio.vuforia.com" target="_blank">Vuforia Studio</a>
+						</li>
+						<li>
+							<a href="https://chalk.vuforia.com" target="_blank">Vuforia Chalk</a>
+						</li>
+					</ul>
+
+					<div class="news-social newsletter__form">
+						<form action="https://s2826.t.eloqua.com/e/f2" class="footer-links" data-form="" id="form1" method="post" name="Newsletter" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector('form#form1 input[type=submit]');if(s){s.disabled=true;}}},100);return true;">
+
+							<input type="hidden" value="ARVuforiaDeveloperPortalNewsletterForm" name="elqFormName">
+							<input type="hidden" value="2826" name="elqSiteId">
+							<input type="hidden" value="999999" name="elqCampaignId">
+							<input type="hidden" value="0" name="elqCookieWrite">
+
+							<h6 class="newsletter-message">Stay cutting edge. Get the Vuforia newsletter.</h6>
+							<div class="validation-error"></div>
+							<div class="form-row newsletter-signup" id="formElement1">
+								<input type="text" class="form-control" id="footerfield1" placeholder="Email" name="C_EmailAddress" aria-describedby="emailHelp">
+								<div class="col-auto" id="formElement2">
+									<input class="btn btn-primary vb-2 disabled nsl-button" disabled type="submit" style="width:auto" value="Add" id="footerfield2">
+								</div>
+							</div>
+
+							<div class="form-row">
+								<div class="form-check vt-2 vl-2" id="formElement0">
+									<input class="form-check-input" type="checkbox" value="Checked" id="footerfield0" name="C_GDPR_Validation1">
+									<label class="form-check-label" for="footerfield0">
+										<span>*
+										</span>
+										<a href="https://www.ptc.com/en/documents/policies/privacy" target="_blank" style="color: white;border-bottom: 1px dotted;">PTC's privacy policy</a>
+										will apply. You can unsubscribe to this newsletter at any time.
+									</label>
+								</div>
+							</div>
+						</form>
+
+						<ul class="inline-social">
+							<li class="icon-social">
+								<a href="https://www.facebook.com/Vuforia/" target="_blank">
+									<svg class="svg-inline--fa fa-facebook-f fa-w-9 fa-lg" aria-hidden="true" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 264 512" data-fa-i2svg="">
+										<path fill="currentColor" d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"></path>
+									</svg><!-- <i class="fab fa-facebook-f fa-lg"></i> --></a>
+							</li>
+							<li class="icon-social">
+								<a href="https://twitter.com/vuforia" target="_blank">
+									<svg class="svg-inline--fa fa-twitter fa-w-16 fa-lg" aria-hidden="true" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512" data-fa-i2svg="">
+										<path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+									</svg><!-- <i class="fab fa-twitter fa-lg"></i> --></a>
+							</li>
+							<li class="icon-social">
+								<a href="https://www.linkedin.com/company/vuforia-a-ptc-technology" target="_blank">
+									<svg class="svg-inline--fa fa-linkedin-in fa-w-14 fa-lg" aria-hidden="true" data-prefix="fab" data-icon="linkedin-in" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" data-fa-i2svg="">
+										<path fill="currentColor" d="M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z"></path>
+									</svg><!-- <i class="fab fa-linkedin-in fa-lg"></i> --></a>
+							</li>
+							<li class="icon-social">
+								<a href="https://www.youtube.com/vuforia" target="_blank">
+									<svg class="svg-inline--fa fa-youtube fa-w-18 fa-lg" aria-hidden="true" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 576 512" data-fa-i2svg="">
+										<path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+									</svg><!-- <i class="fab fa-youtube fa-lg"></i> --></a>
+							</li>
+							<li class="icon-social">
+								<a href="https://www.instagram.com/vuforia" target="_blank">
+									<svg class="svg-inline--fa fa-instagram fa-w-14 fa-lg" aria-hidden="true" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512" data-fa-i2svg="">
+										<path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+									</svg><!-- <i class="fab fa-instagram fa-lg"></i> --></a>
+							</li>
+						</ul>
+					</div>
+
+				</article>
+				<section
+					class="footer__sub">
+					<!-- legal and ptc logo -->
+					<div class="footer-bottom-wrapper">
+						<div class="links-container pull-left">
+							<p>&copy; Copyright 2022 PTC</p>
+							<span>
+								<a href="https://www.ptc.com/en/documents/policies" target="_blank">Legal</a>
+								<span></span>
+								<a href="https://www.ptc.com/en/documents/policies/privacy" target="_blank">Privacy
+																		                                    Policy</a>
+								<span></span>
+								<a href="https://developer.vuforia.com/legal/tos" target="_blank">Terms</a>
+								<span></span>
+								<a href="https://www.ptc.com/en/documents/security" target="_blank">Security</a>
+								<span></span>
+							</span>
+						</div>
+						<div class="logo-container pull-right">
+							<a href="https://www.ptc.com/" target="_blank"></a>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+</footer>
+
+<div class="modal-backdrop" style="display: none;"></div>
+
+  </div>
+
+      
+      <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"system\/files","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"file":"downloads\/sdk\/add-vuforia-package-10-13-3.unitypackage"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"user":{"uid":0,"permissionsHash":"eae43038fb0be8672006f82eb8844c0c0f8fc347b94088b49cb475574ad462d5"}}</script>
+<script src="/sites/default/files/js/js_xboULgNIoaWph5CMwiAyqwBi4dVIBG0flAFw9e_-U3E.js"></script>
+
+  </body>
+</html>

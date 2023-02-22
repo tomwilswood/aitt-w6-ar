@@ -54,6 +54,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+!add-vuforia-package-10-13-3.unitypackage
 
 # Crashlytics generated file
 crashlytics-build.properties
