@@ -1,4 +1,4 @@
-# Practical 5: Prototyping Augmented Reality with Vuforia and Unity
+# Week 6 Practical: Prototyping Augmented Reality with Vuforia and Unity
 
 In this week's lecture we saw a range of different approaches for creating augmented reality experiences, which overlay digital content onto the physical world. In this practical, we're going to use a tool called Vuforia within Unity to make some experiences using some of those approaches.
 
